@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local</title>
     <link rel="shortcut icon" href="../img/ecce-laranja.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oswald:wght@300;400&display=swap');
+    </style>
+    
 </head>
 <body>
-    <nav>
+    <nav class="menu"> 
         <a href="../index.html">Ecce Venio</a>
         <a href="../agenda/pag002.html">Agenda</a>
         <a href="../inscricoes/pag003.html">Inscrições</a>
@@ -18,17 +22,72 @@
 
     </nav>
 
-    <h2>LOCAL</h2>
-    <p>Seminário Dehoniano Santo Antônio</p>
-    <p> Rua Pe Antônio de Pádua Belarmino de Sena</p>
-    <p>Jardim Paulista Baixo, Paulista- PE</p>
-    <hr>
+    <figure class="imagens_topo">
+        <img id="agenda_pag" src="../img/inscrições (1).png" alt="agenda ecce venio" width="1000" >
+    </figure>
+    <div id="nome_seminario">
+        <p>Seminário Dehoniano Santo Antônio</p>
+    </div>
+    <div id="endereco">
+        <p> Rua Pe Antônio de Pádua Belarmino de Sena - Jardim Paulista Baixo, Paulista- PE</p>
+    </div>
+   
+    <div class="slider_local">
+        <div class="slides">
+            <!-- Radio Buttons -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- FimRadio Buttons -->
 
-    <!-- mapa dp google -->
+        <!-- imagens dos slides -->
+        
+            <div class="slide first">
+                <img src="../img/scj.png" alt="imagem da entrada do seminario">
+            </div>
+            <div class="slide">
+                <img src="../img/seminario 1.png" alt="imagem da igreja (fora)">
+            </div>
+            <div class="slide">
+                <img src="../img/arco iris.png" alt="imagem de um arco íris">
+            </div>
+            <div class="slide">
+                <img src="../img/igreja.png" alt="imagem da igreja (dentro)">
+            </div>
+        <!-- Fim imagens dos slides -->
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7903.0364770563965!2d-34.90406134609373!3d-7.945275299999989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1754fdff6f27%3A0x6a7728975b51be9c!2sSemin%C3%A1rio%20Dehoniano%20%22Santo%20Ant%C3%B4nio%22!5e0!3m2!1spt-BR!2sbr!4v1681067082771!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <hr>
+        <!-- Navegação automatica dos slides -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
 
-    
+        <!-- Navegação manual dos slides -->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+
+            </div>  
+        </div>
+    </div>
+  
+
+    <!-- mapa do google -->
+    <br><br>
+    <div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7903.0364770563965!2d-34.90406134609373!3d-7.945275299999989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1754fdff6f27%3A0x6a7728975b51be9c!2sSemin%C3%A1rio%20Dehoniano%20%22Santo%20Ant%C3%B4nio%22!5e0!3m2!1spt-BR!2sbr!4v1681067082771!5m2!1spt-BR!2sbr" width="1200" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    <script src="../script.js"></script>
 </body>
+<footer class="footer">
+    <hr>
+    <p>Criado por Rayssa Camila da Silva</p>
+</footer>
 </html>

@@ -6,28 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="shortcut icon" href="../img/ecce-laranja.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oswald:wght@300;400&display=swap');
+    </style>
+    
 </head>
 <body>
-    <nav>
+
+    <nav class="menu"> 
         <a href="../index.html">Ecce Venio</a>
         <a href="../agenda/pag002.html">Agenda</a>
         <a href="../inscricoes/pag003.html">Inscrições</a>
         <a href="../local/pag004.html">Local</a>
         <a href="pag005.html">Contato</a>
 
-        <form>
-            <h2> Fale conosco </h2>
-            <pre>
-Alguma dúvida ou sugestão?
-Manda pra gente!
-            </pre>
+    </nav>
 
-            Nome: <input type="text" name="nome" placeholder="" > <br><br>
+    <figure class="imagens_topo">
+        <img id="agenda_pag" src="../img/contato.png" alt="agenda ecce venio" width="1000" >
+    </figure>
+
+        
+            <h2 align="center" id="fale_conosco"> Fale conosco </h2>
+            <p class="subtitulo">
+                Alguma dúvida ou sugestão?
+            </p>
+
+            <p class="subtitulo">
+                Manda pra gente!
+            </p>
+
+        <form class="formulario">
+            <div>
+                Nome: <input type="text" name="nome" placeholder="" > <br><br>
+            </div>
+            <div>
             Telefone: <input type="tel" name="usertel"> <br><br>
-            Endereço: <input type="text" name="endereco"><br><br><br>
+            </div>
+            <div>
+            Endereço: <input type="text" name="endereco"><br><br>
+            </div>
 
-            <textarea>Deixe aqui sua mensagem</textarea><br><br>
+
+            <textarea row="6" id="msg">Deixe aqui sua mensagem</textarea><br><br><br>
 
             <input type="submit" value="Enviar">
 
@@ -35,6 +57,14 @@ Manda pra gente!
         </form>
 
     </nav>
+
+
+
     
+    <script src="../script.js"></script>
 </body>
+<footer class="footer">
+    <hr>
+    <p>Criado por Rayssa Camila da Silva</p>
+</footer>
 </html>

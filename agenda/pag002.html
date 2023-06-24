@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda</title>
     <link rel="shortcut icon" href="../img/ecce-laranja.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oswald:wght@300;400&display=swap');
+    </style>
 
 </head>
 <body>
-    <nav>
+    <nav class="menu"> 
         <a href="../index.html">Ecce Venio</a>
         <a href="pag002.html">Agenda</a>
         <a href="../inscricoes/pag003.html">Inscrições</a>
@@ -19,31 +22,44 @@
 
     </nav>
 
-    <p> AGENDA </p>
+    <figure class="imagens_topo">
+        <img id="agenda_pag" src="../img/Design sem nome.png" alt="agenda ecce venio" width="1000" >
+    </figure>
+    <div id="agenda_encontros">
+        <h3>
+            Confira nossos encontros pré-acampamento:
+        </h3>
 
-    <!-- FOTO NA CAPA  -->
+        <div id="botao_canva">
+            <a target="_blank" href = https://www.canva.com/design/DAFV3bi4sMY/gVRxt9mVgAxW4FCSSf66gA/view?website#4>Salve agora no Google Agenda!</a>
+         </div>
+    </div>
 
-    <h3>
-        Confira nossos encontros pré-acampamento:
-    </h3>
+    <section id="encontros">
+        <div class="fotos_encontros">
+            <img src="../img/Design sem nome (3).png" alt="imagem do encontro online" width="400" ><br>
+            <h3 class="titulo_agenda">ENCONTRO ONLINE</h3>
+            <p class="titulo_datas">18 de março</p>
+        </div>
 
-    <a target="_blank" href = https://www.canva.com/design/DAFV3bi4sMY/gVRxt9mVgAxW4FCSSf66gA/view?website#4>Salve agora no Google Agenda!</a>
+        <div class="fotos_encontros">
+            <img src="../img/Design sem nome (4).png" alt="imagem do encontro presencial" width="400" ><br>
+            <h3 class="titulo_agenda">ENCONTRO PRESENCIAL</h3>
+            <p class="titulo_datas">15 e 16 de julho</p>
+        </div>
+
+        <div class="fotos_encontros">
+            <img src="../img/Design sem nome (1).png" alt="imagem do acampamento vocacional" width="400" ><br>
+            <h3 class="titulo_agenda">ECCE VENIO VOCACIONAL</h3>
+            <p class="titulo_datas">01,02 e 03 de setembro</p>
+        </div>
+
+    </section>
     
-
-    <hr>
-    <img src="../img/Design sem nome (3).png" alt="imagem do encontro online" width="200" ><br>
-    <h3>ENCONTRO ONLINE</h3>
-    <p>18 de março</p>
-
-    <img src="../img/Design sem nome (4).png" alt="imagem do encontro presencial" width="200" ><br>
-    <h3>ENCONTRO PRESENCIAL</h3>
-    <p>15 e 16 de julho</p>
-
-    <img src="../img/Design sem nome (1).png" alt="imagem do acampamento vocacional" width="200" ><br>
-    <h3>ECCE VENIO VOCACIONAL</h3>
-    <p>01,02 e 03 de setembro</p>
-    <hr>
-
-    
+    <script src="../script.js"></script>
 </body>
+<footer class="footer">
+    <hr>
+    <p>Criado por Rayssa Camila da Silva</p>
+</footer>
 </html>

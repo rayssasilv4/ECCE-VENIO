@@ -1,0 +1,413 @@
+@font-face {
+    font-family: "Droid";
+    src: url("/fonts/DroidSans-Bold.ttf") format("truetype"),
+         url("/fonts/DroidSans.ttf") format("truetype");
+  }
+
+#corpo {
+    background-color: brown;
+
+}
+
+/* Estilização do topo do site (todas as páginas) */
+#ecce-topo {
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+}
+
+#topo_site {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+#topo_frases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+}
+
+/* Estilização do menu do site (todas as páginas)*/
+.menu {
+    color: red;
+    font-family: "Droid";
+    padding-left: 700px;
+    gap: 10px;
+
+}
+
+.data1 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+ 
+#nome_pag_1 {
+    
+    width: 500px;
+    color: rgb(252, 164, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+#listra_vermelha {
+    width: 700px;
+    height: 20px;
+    background-color: rgb(197, 64, 64);
+    align-items: center;
+}
+
+#inicio {
+    background-image: url('img/D.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 1270px;
+    height: 700px;
+
+}
+
+
+
+
+#hebreus {
+    background-image: url('img/missa.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    padding: 120px 2%;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+
+
+#logo_frase {
+    background-color: white;
+    color: rgb(252, 164, 0);
+    padding: 20px;
+    height: 350px;
+    width: 1230px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#logo_preta {
+    float: left;
+    width: 500px;
+}
+
+#frase1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    padding: 20px;
+}
+
+#video_aguia {
+    background-image: url('img/aguia\ free.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    width: 1230px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: rgb(252, 164, 0);
+}
+
+
+#video_lavras {
+    position: static;
+}
+
+
+.presenca_link {
+    color: white;
+    background-color: brown;
+    text-align: center;
+}
+
+
+#logo_juv {
+    background-color: brown;
+    text-align: center;
+}
+
+/* Estilização da pag002 agenda*/
+
+
+#agenda_pag {
+    display: flex;
+    width: 1270px;
+}
+
+#agenda_encontros {
+    display: flex;
+    align-items: center;
+    background-color:rgb(143, 26, 26);
+    justify-content: space-evenly;
+    color: white;
+    font-family: Droid;
+    font-weight: lighter;
+}
+
+#botao_canva {
+    background-color: white;
+    padding: 12px;
+    color: rgb(143, 26, 26);
+    border-radius: 10px;
+}
+ #encontros {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .fotos_encontros {
+    align-items: center;
+    justify-content: center;
+ }
+
+ .titulo_agenda {
+    color: rgb(252, 164, 0);
+    text-align: center;
+
+
+ }
+ .titulo_datas {
+    color: black;
+    text-align: center;
+
+ }
+
+
+ /* Estilização da pag003 inscricoes*/
+ #frase_1 {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(167, 166, 166);
+    font-family: droid;
+    font-size: 30px;
+
+ }
+ #frase_2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+ }
+
+ #frase_obj {
+    display: flex;
+    background-color: rgb(143, 26, 26);
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+ }
+ #este_informe {
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+
+ }
+ .text_branco {
+    background-color: white;
+    color: black;
+    padding: 1px 25px;
+
+
+ }
+ .text_vermelho {
+    background-color:  rgb(143, 26, 26);
+    color: white;
+    padding: 1px 25px;
+ }
+ #inscricao {
+    font-size: 50px;
+    font-family: Droid;
+    text-align: center;
+ }
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+ /* Estilização da pag004 local*/
+ #nome_seminario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(143, 26, 26);
+    text-transform: uppercase;
+    font-family: Droid;
+    padding: 20px;
+    font-size: 30px;
+ }
+ #endereco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(0, 0, 0);
+    padding: 1px 20px;
+    font-size: 20px;
+ }
+
+ /* Estilização do slider local */
+ .slider_local{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 !important;
+ }
+
+ .slides{
+    width: 400%;
+    height: auto;
+    display: flex;
+
+ }
+ .slides input {
+    display: none;
+ }
+ .slide{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+ }
+ .slide img{
+    /* width: 100%; */
+    width: 800px;
+
+ }
+ .manual-navigation, .navigation-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+ }
+.manual-navigation .manual-btn, .navigation-auto div{
+    border: 1px solid rgb(117, 37, 37);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+ }
+.manual-navigation .manual-btn:not(:last-child), .navigation-auto div:not(:last-child){
+    margin-right: 10px; 
+
+ }
+ .manual-navigation .manual-btn:hover{
+    background-color:rgb(143, 26, 26);
+
+ }
+
+
+
+ #radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color:rgb(143, 26, 26);
+ }
+ #radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color:rgb(143, 26, 26);
+ }
+ #radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color:rgb(143, 26, 26);
+ }
+ #radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color:rgb(143, 26, 26);
+ }
+
+
+
+ #radio1:checked ~ .first{
+    margin-left: 0%;
+ }
+ #radio2:checked ~ .first{
+    margin-left: -25%;
+ }
+ #radio3:checked ~ .first{
+    margin-left: -50%;
+ }
+ #radio4:checked ~ .first{
+    margin-left: -75%;
+ }
+ /* Fim da Estilização do slider local */
+
+ 
+ #mapa{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+ }
+ 
+
+ /* Estilização da pag005 contato*/
+ #fale_conosco {
+   font-family: Droid;
+   text-transform: uppercase;
+   color: rgb(143, 26, 26);
+ }
+ .subtitulo {
+   font-family: Droid;
+   margin-left: 5%;
+
+ }
+ .formulario {
+   border: 1px solid rgb(117, 37, 37);
+   padding: 15px;
+   border-radius: 10px;
+   font-family: Oswald;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+
+
+/* Estilização do rodapé do site (todas as páginas)*/
+.footer {
+    background-color: white;
+
+    color: rgb(143, 26, 26);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    justify-content: flex-start;
+
+}
